@@ -1,0 +1,181 @@
+patient;sex;birth.date;operation.date;tumor;tumor.id;tumor.location;maes.date;volume.cm3
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2009-02-21;0.498
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2010-02-20;0.577
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2011-02-19;1.069
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2012-02-18;0.97
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2012-10-18;1.641
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2013-06-02;0.773
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2014-06-15;1.469
+2;M;1972-12-13;2001-11-06;C;2C;tuberculum sellae;2015-06-28;1.271
+2;M;1972-12-13;2008-08-21;D;2D;sfenoid links;2008-01-06;0.62
+2;M;1972-12-13;2008-08-21;D;2D;sfenoid links;2008-06-28;1.653
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2008-01-06;0.774
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2008-06-28;0.917
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2009-02-21;1.173
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2010-02-20;1.013
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2011-02-19;0.906
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2012-02-18;1.3
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2012-10-08;1.248
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2013-06-02;0.709
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2014-06-15;0.788
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2015-06-28;1.124
+2;M;1972-12-13;2012-10-09;E;2E;falx links rolandisch;2016-06-26;1.059
+2;M;1972-12-13;2012-10-09;F;2F;falx links prefrontaal;2012-02-18;0.911
+2;M;1972-12-13;2012-10-09;F;2F;falx links prefrontaal;2012-10-08;2.613
+3;V;1974-04-13;NA;A;3A;frontobasaal rechts;2012-08-08;0.391
+3;V;1974-04-13;NA;A;3A;frontobasaal rechts;2013-07-15;0.457
+3;V;1974-04-13;NA;A;3A;frontobasaal rechts;2014-07-25;1.073
+3;V;1974-04-13;NA;A;3A;frontobasaal rechts;2015-07-15;0.787
+3;V;1974-04-13;NA;A;3A;frontobasaal rechts;2016-07-15;1.44
+3;V;1974-04-13;NA;B;3B;frontobasaal mediaan;2012-08-08;0.197
+3;V;1974-04-13;NA;B;3B;frontobasaal mediaan;2013-07-15;0.239
+3;V;1974-04-13;NA;B;3B;frontobasaal mediaan;2014-07-25;0.231
+3;V;1974-04-13;NA;B;3B;frontobasaal mediaan;2015-07-15;0.468
+3;V;1974-04-13;NA;B;3B;frontobasaal mediaan;2016-07-15;0.452
+3;V;1974-04-13;NA;C;3C;tentorium;2012-08-08;0.074
+3;V;1974-04-13;NA;C;3C;tentorium;2013-07-15;0.054
+3;V;1974-04-13;NA;C;3C;tentorium;2014-07-25;0.18
+3;V;1974-04-13;NA;C;3C;tentorium;2015-07-15;0.172
+3;V;1974-04-13;NA;C;3C;tentorium;2016-07-15;0.407
+10;M;1957-01-23;2009-03-18;A;10A;tentorieel;2007-01-03;1.013
+10;M;1957-01-23;2009-03-18;A;10A;tentorieel;2007-11-18;1.204
+10;M;1957-01-23;2009-03-18;A;10A;tentorieel;2008-11-05;1.592
+10;M;1957-01-23;NA;B;10B;falx links;2007-01-03;0.35
+10;M;1957-01-23;NA;B;10B;falx links;2007-11-18;0.371
+10;M;1957-01-23;NA;B;10B;falx links;2008-11-05;0.563
+10;M;1957-01-23;NA;B;10B;falx links;2009-11-21;0.874
+10;M;1957-01-23;NA;B;10B;falx links;2010-11-07;1.291
+10;M;1957-01-23;NA;B;10B;falx links;2011-11-12;1.469
+10;M;1957-01-23;NA;B;10B;falx links;2013-02-02;1.97
+10;M;1957-01-23;NA;B;10B;falx links;2015-02-17;2.186
+10;M;1957-01-23;NA;B;10B;falx links;2016-07-17;2.661
+10;M;1957-01-23;NA;B;10B;falx links;2016-12-28;2.847
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2007-01-03;0.963
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2007-11-18;1.23
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2008-11-05;1.967
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2009-11-21;1.949
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2010-11-07;2.058
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2011-11-12;2.402
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2013-02-02;3.226
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2015-02-17;3.678
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2016-07-17;3.515
+10;M;1957-01-23;NA;C;10C;convexiteit links posterieur;2016-12-28;4.273
+10;M;1957-01-23;2009-03-18;D;10D;convexiteit links anterieur;2010-11-07;0.027
+10;M;1957-01-23;2009-03-18;D;10D;convexiteit links anterieur;2011-11-12;0.051
+10;M;1957-01-23;2009-03-18;D;10D;convexiteit links anterieur;2013-02-02;0.135
+10;M;1957-01-23;2009-03-18;D;10D;convexiteit links anterieur;2015-02-17;0.421
+10;M;1957-01-23;2009-03-18;D;10D;convexiteit links anterieur;2016-07-17;0.981
+10;M;1957-01-23;2009-03-18;D;10D;convexiteit links anterieur;2016-12-28;1.312
+12;V;1977-03-21;NA;B;12B;paramediaan links;2001-10-27;0.378
+12;V;1977-03-21;NA;B;12B;paramediaan links;2002-11-16;0.397
+12;V;1977-03-21;NA;B;12B;paramediaan links;2003-10-06;0.586
+12;V;1977-03-21;NA;B;12B;paramediaan links;2005-09-30;0.392
+12;V;1977-03-21;NA;B;12B;paramediaan links;2006-09-30;0.531
+12;V;1977-03-21;NA;B;12B;paramediaan links;2007-10-06;0.436
+12;V;1977-03-21;NA;B;12B;paramediaan links;2008-10-11;0.687
+12;V;1977-03-21;NA;B;12B;paramediaan links;2010-11-03;0.719
+12;V;1977-03-21;NA;B;12B;paramediaan links;2011-03-01;0.575
+12;V;1977-03-21;NA;B;12B;paramediaan links;2011-05-24;0.628
+12;V;1977-03-21;NA;B;12B;paramediaan links;2011-10-25;0.622
+14;V;1938-10-01;2009-10-01;A;14A;rechts temp supratentorieel ;2002-08-30;4.617
+14;V;1938-10-01;2009-10-01;A;14A;rechts temp supratentorieel ;2002-11-29;4.359
+14;V;1938-10-01;2009-10-01;A;14A;rechts temp supratentorieel ;2003-05-05;6.491
+14;V;1938-10-01;2009-10-01;A;14A;rechts temp supratentorieel ;2006-03-24;10.13
+14;V;1938-10-01;2009-10-01;A;14A;rechts temp supratentorieel ;2007-05-04;9.582
+14;V;1938-10-01;2009-10-01;A;14A;rechts temp supratentorieel ;2008-05-09;8.953
+14;V;1938-10-01;2009-10-01;A;14A;rechts temp supratentorieel ;2009-05-08;8.992
+14;V;1938-10-01;2009-10-01;B;14B;rechts infratentorieel ;2002-08-30;1.817
+14;V;1938-10-01;2009-10-01;B;14B;rechts infratentorieel ;2002-11-29;2.276
+14;V;1938-10-01;2009-10-01;B;14B;rechts infratentorieel ;2003-05-05;1.791
+14;V;1938-10-01;2009-10-01;B;14B;rechts infratentorieel ;2006-03-24;2.268
+14;V;1938-10-01;2009-10-01;B;14B;rechts infratentorieel ;2007-05-04;3.014
+14;V;1938-10-01;2009-10-01;B;14B;rechts infratentorieel ;2008-05-09;1.95
+14;V;1938-10-01;2009-10-01;B;14B;rechts infratentorieel ;2009-05-08;1.045
+15;V;1971-09-15;2004-11-09;A;15A;convexiteit rechts temporaal;2001-10-29;0.631
+15;V;1971-09-15;2004-11-09;A;15A;convexiteit rechts temporaal;2003-11-30;2.908
+15;V;1971-09-15;2004-11-09;A;15A;convexiteit rechts temporaal;2004-09-13;4.762
+16;M;1965-01-27;2005-02-10;A;16A;links parietaal;2003-12-10;4.106
+16;M;1965-01-27;2005-02-10;A;16A;links parietaal;2004-05-15;5.57
+16;M;1965-01-27;2005-02-10;A;16A;links parietaal;2004-11-06;5.893
+17;M;1959-12-02;2005-06-07;A;17A;rechts occipitaal;2002-09-01;0.51
+17;M;1959-12-02;2005-06-07;A;17A;rechts occipitaal;2004-01-17;0.703
+17;M;1959-12-02;2005-06-07;A;17A;rechts occipitaal;2005-03-26;3.572
+18;M;1955-03-07;2006-08-07;A;18A;temporale hoorn van de laterale ventrikel rechts;2006-06-09;7.987
+18;M;1955-03-07;2006-08-07;B;18B;rechter temporale basis;2006-06-09;0.736
+18;M;1955-03-07;NA;C;18C;links frontaal;2006-06-09;0.162
+18;M;1955-03-07;NA;C;18C;links frontaal;2007-02-02;0.319
+18;M;1955-03-07;NA;C;18C;links frontaal;2008-02-09;0.439
+18;M;1955-03-07;NA;C;18C;links frontaal;2009-02-07;0.548
+18;M;1955-03-07;NA;C;18C;links frontaal;2010-02-06;1.218
+18;M;1955-03-07;NA;C;18C;links frontaal;2011-03-16;1.962
+18;M;1955-03-07;NA;C;18C;links frontaal;2012-03-10;2.554
+18;M;1955-03-07;NA;C;18C;links frontaal;2014-05-22;6.205
+19;V;1971-09-29;2007-09-04;A;19A;links frontaal;2002-12-04;0.217
+19;V;1971-09-29;2007-09-04;A;19A;links frontaal;2004-03-29;0.68
+19;V;1971-09-29;2007-09-04;A;19A;links frontaal;2007-05-14;6.092
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2002-12-04;0.094
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2004-03-29;0.132
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2007-05-14;0.176
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2008-04-19;0.229
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2008-09-27;0.118
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2009-03-28;0.3
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2009-10-03;0.338
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2010-04-03;0.374
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2010-10-06;0.378
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2011-01-23;0.348
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2012-04-29;0.437
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2012-11-03;0.413
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2013-11-10;0.562
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2014-11-16;0.504
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2015-11-29;0.599
+19;V;1971-09-29;NA;B;19B;links frontobasaal;2016-11-20;0.54
+20;V;1940-12-20;2007-08-21;A;20A;rechts frontobasaal;2006-01-10;1.214
+20;V;1940-12-20;2007-08-21;A;20A;rechts frontobasaal;2006-07-08;1.957
+20;V;1940-12-20;2007-08-21;A;20A;rechts frontobasaal;2007-01-13;2.987
+20;V;1940-12-20;2007-08-21;A;20A;rechts frontobasaal;2007-05-12;3.297
+21;M;1939-07-19;NA;A;21A;planum sfenoidale;2005-09-30;3.22
+21;M;1939-07-19;NA;A;21A;planum sfenoidale;2007-01-22;3.355
+21;M;1939-07-19;NA;A;21A;planum sfenoidale;2008-01-21;3.32
+21;M;1939-07-19;NA;A;21A;planum sfenoidale;2010-01-18;3.1
+22;M;1974-05-27;2009-02-25;A;22A;falco-tentorieel links;2008-11-30;2.944
+24;V;NA;2010-04-07;A;24A;frontobasaal rechts;2009-05-29;6.245
+24;V;NA;2010-04-07;A;24A;frontobasaal rechts;2010-03-20;17.58
+24;V;NA;NA;B;24B;recidief frontobasaal rechts;2011-03-28;0.136
+24;V;NA;NA;B;24B;recidief frontobasaal rechts;2012-03-25;0.261
+24;V;NA;NA;B;24B;recidief frontobasaal rechts;2013-11-08;0.38
+24;V;NA;NA;B;24B;recidief frontobasaal rechts;2014-11-29;0.58
+24;V;NA;NA;B;24B;recidief frontobasaal rechts;2015-11-30;0.903
+24;V;NA;NA;B;24B;recidief frontobasaal rechts;2016-12-02;1.299
+24;V;NA;NA;C;24C;brughoek links;2009-05-29;0.043
+24;V;NA;NA;C;24C;brughoek links;2010-03-20;0.059
+24;V;NA;NA;C;24C;brughoek links;2011-03-28;0.224
+24;V;NA;NA;C;24C;brughoek links;2012-03-25;0.243
+24;V;NA;NA;C;24C;brughoek links;2013-11-08;0.517
+24;V;NA;NA;C;24C;brughoek links;2014-11-29;0.625
+24;V;NA;NA;C;24C;brughoek links;2015-11-30;0.628
+24;V;NA;NA;C;24C;brughoek links;2016-12-02;0.714
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2009-05-29;0.135
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2010-03-20;0.175
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2011-03-28;0.212
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2012-03-25;0.425
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2013-11-08;1.015
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2014-11-29;1.864
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2015-11-30;2.883
+24;V;NA;NA;D;24D;convexiteit frontaal rechts;2016-12-02;5.003
+25;M;1978-11-21;2011-05-06;A;25A;brughoek links recidief na eerste resectie 2010;2012-07-04;1.617
+25;M;1978-11-21;2011-05-06;A;25A;brughoek links recidief na eerste resectie 2010;2012-09-24;21.518
+25;M;1978-11-21;2011-05-06;A;25A;brughoek links recidief na eerste resectie 2010;2012-11-19;42.276
+25;M;1978-11-21;NA;B;25B;sinus cavernosus links;2010-12-09;1.28
+25;M;1978-11-21;NA;B;25B;sinus cavernosus links;2011-05-11;2.425
+25;M;1978-11-21;NA;B;25B;sinus cavernosus links;2011-12-16;3.875
+25;M;1978-11-21;NA;B;25B;sinus cavernosus links;2012-07-04;3.087
+25;M;1978-11-21;NA;B;25B;sinus cavernosus links;2012-09-24;4.753
+25;M;1978-11-21;NA;B;25B;sinus cavernosus links;2012-11-19;4.851
+26;V;1986-08-19;2010-09-09;A;26A;falxmeningeoma rechts;2010-06-24;16.161
+26;V;1986-08-19;2012-05-24;B;26B;sfenoid rechts;2010-06-24;0.968
+26;V;1986-08-19;2012-05-24;B;26B;sfenoid rechts;2011-02-27;1.684
+26;V;1986-08-19;2012-05-24;B;26B;sfenoid rechts;2012-03-09;2.705
+26;V;1986-08-19;NA;C;26C;parietaal rechts;2013-11-24;0.044
+26;V;1986-08-19;NA;C;26C;parietaal rechts;2014-11-27;0.066
+26;V;1986-08-19;NA;C;26C;parietaal rechts;2015-11-25;0.166
+26;V;1986-08-19;NA;C;26C;parietaal rechts;2016-10-28;0.267
