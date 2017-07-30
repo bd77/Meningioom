@@ -21,6 +21,7 @@ names(growth.df)
 
 mg1.lm <- lm(data = growth.df, volume.cm3 ~ meas.date.yr)
 summary(mg1.lm)
+intervals(mg1)
 plot(growth.df$meas.date.yr, growth.df$volume.cm3)
 plot(growth.df$tumor.id, resid(mg1.lm))
 # residuals depend strongly on the tumor >>> mixed effects model
@@ -40,5 +41,6 @@ qqnorm(resid(mg1))
 growth.nout.df <- growth.df[!growth.df$tumor.id %in% c("24A", "25A", "2D", "2F", "16A"),]
 mg.nout.1 <- lme(data = growth.nout.df, volume.cm3 ~ meas.date.yr, random = ~ meas.date.yr | tumor.id)
 summary(mg.nout.1)
+intervals(mg.nout.1, which = "fixed")
 qqnorm(resid(mg.nout.1))
 plot(growth.nout.df$tumor.id, resid(mg.nout.1)) # distributed around 0
