@@ -39,7 +39,7 @@ qqnorm(resid(mg1))
 # 25A extreme outliers, very high growth speed
 # 10D, 18D, 24D because of exponential growth
 # "2E", "12B", "21A" virtueel stabiel
-growth.nout.df <- growth.df[!growth.df$tumor.id %in% c("14A", "14B", "25A", "10D", "18D", "24D", "2E", "12B", "21A"),]
+growth.nout.df <- growth.df[!growth.df$tumor.id %in% c("14A", "14B", "25A", "10D", "18C", "24D", "2E", "12B", "21A"),]
 mg.nout.1 <- lme(data = growth.nout.df, volume.cm3 ~ meas.date.yr, random = ~ meas.date.yr | tumor.id)
 summary(mg.nout.1)
 intervals(mg.nout.1, which = "fixed")
