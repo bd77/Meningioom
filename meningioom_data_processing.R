@@ -7,6 +7,7 @@ library(ggplot2)
 library(lattice)
 library(lubridate)
 
+rm(list = ls())
 mypath <- 'D:/Other/meningioom/20170726/'
 homepath <- "C:/Documenten/Statistiek/Meningioom/"
 workpath <- "D:/Other/meningioom/20170726/"
