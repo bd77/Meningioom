@@ -2,17 +2,24 @@
 # Analyse meningiomen voor Wouter
 # -----------------------------------
 
-
 library(readxl)
 library(ggplot2)
 library(lattice)
+library(lubridate)
 
-rm(list = ls())
 mypath <- 'D:/Other/meningioom/20170726/'
-# mypaht <- "C:/Documenten/Statistiek/Meningioom/20170715/"
+homepath <- "C:/Documenten/Statistiek/Meningioom/"
+workpath <- "D:/Other/meningioom/20170726/"
+if (dir.exists(homepath)) {
+  mypath <- homepath
+} else if (dir.exists(workpath)) {
+  mypath <- workpath
+}
 setwd(dir = mypath)
-meningioom.file <- "gegevens groeisnelheid - Copy 29-4 naar Bart.xlsx"
 
+# input excel file
+meningioom.file <- "gegevens groeisnelheid - Copy 29-4 naar Bart.xlsx"
+# get a list of the sheets
 sheet.list <- excel_sheets(meningioom.file)
 # remove sheets that do not contain meningiome data
 meningiome.list <- sheet.list[!(sheet.list %in% c('Blad1', 'voorbeeld'))]
@@ -63,7 +70,6 @@ for (meningioom.sheet in meningiome.list) {
   }
   else {
     operation.date <- as.Date(as.integer(sheet.df[match("operatie",sheet.df[,1]), 2]), origin = "1899-12-30") 
-    print(operation.date)
   }
   
   # read growth time series
@@ -76,11 +82,12 @@ for (meningioom.sheet in meningiome.list) {
                          data.frame(patient = patient, 
                                     sex = sex,
                                     birth.date = birth.date,
+                                    irradiation.year = irradiation.year,
                                     operation.date = operation.date,
                                     tumor = tumor,
                                     tumor.id = paste0(patient, tumor),
                                     tumor.location = tumor.location,
-                                    maes.date = meas.date, 
+                                    meas.date = meas.date, 
                                     volume.cm3 = volume.cm3))
       # read next line
       volume.row <- volume.row + 1
@@ -88,11 +95,26 @@ for (meningioom.sheet in meningiome.list) {
   }
 }
 
+# add column of years in decimal form
+growth.df <- cbind(growth.df,
+                   operation.date.yr = NA,
+                   meas.date.yr = NA)
+
+# convert dates in decimal years
+i <- 1
+for (i in 1:NROW(growth.df)) {
+  if (!is.na(growth.df$operation.date[i])) {
+    growth.df$operation.date.yr[i] <- decimal_date(ymd(growth.df$operation.date[i], tz = 'CET'))
+  }
+  growth.df$meas.date.yr[i] <- decimal_date(ymd(growth.df$meas.date[i], tz = 'CET'))
+}
+
+
 write.table(growth.df, file = "meningiome_growth.txt", row.names = FALSE,
             quote = FALSE, sep = ';')
 # 
 # png('overzicht_meningiomen.png')
-# xyplot(volume.cm3~maes.date|patient,
+# xyplot(volume.cm3~meas.date|patient,
 #        type="b",
 #        group=tumor,
 #        data=growth.df,

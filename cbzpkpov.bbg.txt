@@ -1,0 +1,50 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   gegevens groeisnelheid - Copy 29-4 naar Bart.xlsx
+#	new file:   meningiome_growth.txt
+#	new file:   meningiome_strarting_point.txt
+#	new file:   meningioom_data_processing.R
+#	new file:   overzicht_meningiomen.png
+#	new file:   plot_per_tumors.R
+#	new file:   plots_per_tumor/tumor_10A.png
+#	new file:   plots_per_tumor/tumor_10B.png
+#	new file:   plots_per_tumor/tumor_10C.png
+#	new file:   plots_per_tumor/tumor_10D.png
+#	new file:   plots_per_tumor/tumor_12B.png
+#	new file:   plots_per_tumor/tumor_14A.png
+#	new file:   plots_per_tumor/tumor_14B.png
+#	new file:   plots_per_tumor/tumor_15A.png
+#	new file:   plots_per_tumor/tumor_16A.png
+#	new file:   plots_per_tumor/tumor_17A.png
+#	new file:   plots_per_tumor/tumor_18A.png
+#	new file:   plots_per_tumor/tumor_18B.png
+#	new file:   plots_per_tumor/tumor_18C.png
+#	new file:   plots_per_tumor/tumor_19A.png
+#	new file:   plots_per_tumor/tumor_19B.png
+#	new file:   plots_per_tumor/tumor_20A.png
+#	new file:   plots_per_tumor/tumor_21A.png
+#	new file:   plots_per_tumor/tumor_22A.png
+#	new file:   plots_per_tumor/tumor_24A.png
+#	new file:   plots_per_tumor/tumor_24B.png
+#	new file:   plots_per_tumor/tumor_24C.png
+#	new file:   plots_per_tumor/tumor_24D.png
+#	new file:   plots_per_tumor/tumor_25A.png
+#	new file:   plots_per_tumor/tumor_25B.png
+#	new file:   plots_per_tumor/tumor_26A.png
+#	new file:   plots_per_tumor/tumor_26B.png
+#	new file:   plots_per_tumor/tumor_26C.png
+#	new file:   plots_per_tumor/tumor_2C.png
+#	new file:   plots_per_tumor/tumor_2D.png
+#	new file:   plots_per_tumor/tumor_2E.png
+#	new file:   plots_per_tumor/tumor_2F.png
+#	new file:   plots_per_tumor/tumor_3A.png
+#	new file:   plots_per_tumor/tumor_3B.png
+#	new file:   plots_per_tumor/tumor_3C.png
+#
+
