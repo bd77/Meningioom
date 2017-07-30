@@ -35,10 +35,11 @@ summary(mg1)
 
 qqnorm(resid(mg1))
 
-# 24A en 25A are extreme outliers, very high growth speed
-# 2D and 2F are based on 2 points > very wide CI
-# 16A has a very wide CI, based on 3 points
-growth.nout.df <- growth.df[!growth.df$tumor.id %in% c("24A", "25A", "2D", "2F", "16A"),]
+# 14A, 14B Schwamanoma, geen meningioma
+# 25A extreme outliers, very high growth speed
+# 10D, 18D, 24D because of exponential growth
+# "2E", "12B", "21A" virtueel stabiel
+growth.nout.df <- growth.df[!growth.df$tumor.id %in% c("14A", "14B", "25A", "10D", "18D", "24D", "2E", "12B", "21A"),]
 mg.nout.1 <- lme(data = growth.nout.df, volume.cm3 ~ meas.date.yr, random = ~ meas.date.yr | tumor.id)
 summary(mg.nout.1)
 intervals(mg.nout.1, which = "fixed")
