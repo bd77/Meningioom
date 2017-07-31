@@ -35,6 +35,8 @@ summary(mg1)
 
 qqnorm(resid(mg1))
 
+
+
 # 14A, 14B Schwamanoma, geen meningioma
 # 25A extreme outliers, very high growth speed
 # 10D, 18D, 24D because of exponential growth
@@ -45,3 +47,16 @@ summary(mg.nout.1)
 intervals(mg.nout.1, which = "fixed")
 qqnorm(resid(mg.nout.1))
 plot(growth.nout.df$tumor.id, resid(mg.nout.1)) # distributed around 0
+
+growth.speeds <- fixed.effects(mg.nout.1)[2] + ranef(mg.nout.1)[,2]
+hist(growth.speeds)
+abline(v = mean(growth.speeds))
+
+gs.tbl <- read.table('meningiome_starting_point.txt', sep = '\t', header = TRUE)
+gs.tbl <- gs.tbl[!gs.tbl$tumor.id %in% c("14A", "14B", "25A", "10D", "18C", "24D", "2E", "12B", "21A"),]
+
+png('histogrom_growth_speed_with_24A.png')
+hist(gs.tbl$growth.speed.cm3.yr, xlab = "Growth speed (cm3/yr)", main = "")
+abline(v = mean(gs.tbl$growth.speed.cm3.yr, na.rm = TRUE), col = 'red')
+abline(v = median(gs.tbl$growth.speed.cm3.yr, na.rm = TRUE), col = 'blue')
+dev.off()
